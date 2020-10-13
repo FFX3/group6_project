@@ -15,25 +15,25 @@ function changeContent(province){
     switch(province){
         case 'Alberta': dynamicElement.innerHTML = albertaContent;
         break;
-        case 'British Columbia': dynamicElement.innerHTML = british_columbiaContent;
+        case 'British_Columbia': dynamicElement.innerHTML = british_columbiaContent;
         break;
         case 'Saskatchewan': dynamicElement.innerHTML = saskatchewanContent;
         break;
         case 'Manitoba': dynamicElement.innerHTML = manitobaContent;
         break;
-        case 'New Brunswick': dynamicElement.innerHTML = new_brunswickContent;
+        case 'New_Brunswick': dynamicElement.innerHTML = new_brunswickContent;
         break;
-        case 'Newfoundland and Labrador': dynamicElement.innerHTML = newfoundland_and_labradorContent;
+        case 'Newfoundland_and_Labrador': dynamicElement.innerHTML = newfoundland_and_labradorContent;
         break;
-        case 'Nova Scotia': dynamicElement.innerHTML = nova_scotiaContent;
+        case 'Nova_Scotia': dynamicElement.innerHTML = nova_scotiaContent;
         break;
         case 'Ontario': dynamicElement.innerHTML = ontarioContent;
         break;
-        case 'Prince Edward Island': dynamicElement.innerHTML = prince_edward_islandContent;
+        case 'Prince_Edward_Island': dynamicElement.innerHTML = prince_edward_islandContent;
         break;
         case 'Quebec': dynamicElement.innerHTML = quebecContent;
         break;
-        case 'Northwest Territories': dynamicElement.innerHTML = northwest_territoriesContent;
+        case 'Northwest_Territories': dynamicElement.innerHTML = northwest_territoriesContent;
         break;
         case 'Yukon': dynamicElement.innerHTML = yukonContent;
         break;
@@ -41,6 +41,9 @@ function changeContent(province){
         break;
         default: dynamicElement.innerHTML = "<h2>Oops... Let's try again. Please pick a province</h2>";
     }
+    //update URL & Page Title
+    history.pushState(province, "", "provincePage.html?province="+province);
+    document.title = province;
 }
 //finds all the tags I'd want to change with this script
 let dynamicElement;
