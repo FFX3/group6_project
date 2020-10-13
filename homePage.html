@@ -1,29 +1,134 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Gallery</title>
+<html lang="en">
+
+ <head>
+    <meta charset="utf-8">
+  <title>Where to eat in Canada</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav id="headerNav">
-            <a href="homePage.html">Home</a>
-            <a href="about_usPage.html">About Us</a>
-            <a href="Contact_usPage.html">Contact Us</a>
-        </nav>
+    <header margin="0">
+      <h1><strong>Where to eat</strong></h1>
+       <div class="destination">      
+        <img src="./resources/miscImages/destinationcanada1.png";>
+        </div>         
     </header>
-    <main id="mainGalleryPage">
-        <div id="galleryFlexContainer"> <!--I'll use flexbox to control the dynamicly change the layout on this page-->
-            <!--I plan on using a front end framework to dynamicly add/change what content is shown here depending on which tag it has.-->
+   <aside>
+    <nav>
+        <ul>
+            <li><a href="HomepageWheretoeat.html">Homepage</a></li>
+            <li><a href="galleryPage.html">Gallery</a></li>
+            <li><a href="about_usPage.html">About Us</a></li>
+            <li><a href="Contact_usPage.html">Contact Us</a></li>
+        </ul>
+    </nav>
+   </aside>
+  
+  <section>
+    <p>
+        As the second largest country of the world,Canada has an incredibly rich offerings 
+        for the iconic duo - namely travel and food to its local people as well as tourists.
+        The English and French influences, alongside its huge immigrant influx,make Canada's 
+        culinary mosaic.It is comprised of Canadian ingredients intermingled with traditional 
+        dishes steeped in the region’s history and culture. So Canada offers a panoply of eateries
+        to satisfy your appetite.  
+    </p>
+     <pre class="click"><i>
+        Heading to one of the Canadian capitals and want to explore the restaurants for your trip?
+    Whether you want to sample the most satisfying street food, local specialities or try the most exquisite 
+        examples of fine dining, we help you find the right place. Just One-Click on any provinces! 
+     </i></pre>    
 
-            <div class="galleryPost"><!--This is what the front-end framwork would be dynamicly adding to this page-->
-                <!--each post will link to it's own page-->
-                <a href="postPage.html"><figure>
-                    <img class="postThumbnail" src="images/thumbnail-placeholder.png"> <!--this is where the image thumbnail will be-->
-                    <figcaption>Image caption goes here<figcaption>
-                </figure></a>
+     <table class="proimages1">
+        <tr>
+        <!--insert the quebec/other provinces html in link-->
+        <div class="proimages">
+        <td><a href="provincePage.html?province=Alberta">          
+         <img class="proimages-img" src="./resources/provinceFlags/flag-alberta.jpg" alt="Alberta"></a>
+         <div class="proimages-overlay">
+          <div class="proimages-title">Alberta</div>  
+          </div>
+           </td>
+
+        <td><a href="provincePage.html?province=British Columbia">          
+          <img class="proimages-img" src="./resources/provinceFlags/flag-british columbia.jpg" alt="British Columbia"></a>
+            <div class="proimages-overlay">
+             <div class="proimages-title">British Columbia</div>  
+             </div>
+              </td>
+
+        <td><a href="provincePage.html?province=Manitoba">          
+          <img class="proimages-img" src="./resources/provinceFlags/flag-manitoba.jpg" alt="Manitoba">
+            </a>
+             <div class="proimages-overlay">
+             <div class="proimages-title">Manitoba</div>  
+              </div>
+                </td>
+                      
+        <td><a href="provincePage.html?province=New Brunswick">          
+          <img class="proimages-img" src="./resources/provinceFlags/flag-new- brunswick.jpg" alt="New Brunswick">
+            </a>
+            <div class="proimages-overlay">
+             <div class="proimages-title">New Brunswick</div>  
+              </div>
+               </td>  
+         
+        <td><a href="provincePage.html?province=Newfoundland And Labrador">          
+         <img class="proimages-img" src="./resources/provinceFlags/flag-newfoundland-and-labrador.jpg" alt="Newfoundland and Labrador">
+            </a>
+            <div class="proimages-overlay">
+             <div class="proimages-title">Newfoundland and Labrador</div>  
+              </div>
+                </td>  
+            </tr>
+        <tr>
+        <td><a href="provincePage.html?province=Nova Scotia">          
+         <img class="proimages-img" src="./resources/provinceFlags/flag-nova- scotia.jpg" alt="Nova Scotia">
+          </a>
+            <div class="proimages-overlay">
+            <div class="proimages-title">Nova Scotia</div>  
             </div>
-        </div>
-    </main>
+            </td>  
+
+            <td><a href="provincePage.html?province=Ontario">          
+                <img class="proimages-img" src="./resources/provinceFlags/flag-ontario.jpg" alt="Ontario">
+                 </a>
+                   <div class="proimages-overlay">
+                   <div class="proimages-title">Ontario</div>  
+                   </div>
+                   </td>  
+
+                   <td><a href="provincePage.html?province=Prince Edward Island">          
+                    <img class="proimages-img" src="./resources/provinceFlags/flag-prince-edward-island.jpg" alt="Prince Edward Island">
+                     </a>
+                       <div class="proimages-overlay">
+                       <div class="proimages-title">Prince Edward Island</div>  
+                       </div>
+                       </td>        
+                       
+                       <td><a href="provincePage.html?province=Quebec">          
+                        <img class="proimages-img" src="./resources/provinceFlags/flag-quebec.jpg" alt="Quebec">
+                         </a>
+                           <div class="proimages-overlay">
+                           <div class="proimages-title">Quebec</div>  
+                           </div>
+                           </td>                   
+                           <td><a href="provincePage.html?province=Saskatchewan">          
+                            <img class="proimages-img" src="./resources/provinceFlags/flag-saskatchewan.jpg" alt="Saskatchewan">
+                             </a>
+                               <div class="proimages-overlay">
+                               <div class="proimages-title">Saskatchewan</div>  
+                               </div>
+                               </td>       
+               
+
+                    
+                </div></tr>
+     </table>
+  </section>    
+   <footer class="copyright">&copy;Copyright 2020 FS1000-Fall2020
+          </footer> 
+
 </body>
+
 </html>

@@ -19,7 +19,7 @@ function changeContent(province){
         break;
         case 'Saskatchewan': dynamicElement.innerHTML = saskatchewanContent;
         break;
-        default: dynamicElement.innerHTML = "<h2>Oops</h2>";
+        default: dynamicElement.innerHTML = "<h2>Oops... Pick a Province</h2>";
     }
 }
 //finds all the tags I'd want to change with this script
