@@ -17,6 +17,8 @@ function newContentOnClick(event) {
         break;
         case 'British Columbia': dynamicElement.innerHTML = british_columbiaContent;
         break;
+        case 'Saskatchewan': dynamicElement.innerHTML = saskatchewanContent;
+        break;
         default: dynamicElement.innerHTML = "<h2>Oops</h2>";
     }
 }
