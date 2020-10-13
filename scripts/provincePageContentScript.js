@@ -19,7 +19,27 @@ function changeContent(province){
         break;
         case 'Saskatchewan': dynamicElement.innerHTML = saskatchewanContent;
         break;
-        default: dynamicElement.innerHTML = "<h2>Oops... Pick a Province</h2>";
+        case 'Manitoba': dynamicElement.innerHTML = manitobaContent;
+        break;
+        case 'New Brunswick': dynamicElement.innerHTML = new_brunswickContent;
+        break;
+        case 'Newfoundland and Labrador': dynamicElement.innerHTML = newfoundland_and_labradorContent;
+        break;
+        case 'Nova Scotia': dynamicElement.innerHTML = nova_scotiaContent;
+        break;
+        case 'Ontario': dynamicElement.innerHTML = ontarioContent;
+        break;
+        case 'Prince Edward Island': dynamicElement.innerHTML = prince_edward_islandContent;
+        break;
+        case 'Quebec': dynamicElement.innerHTML = quebecContent;
+        break;
+        case 'Northwest Territories': dynamicElement.innerHTML = northwest_territoriesContent;
+        break;
+        case 'Yukon': dynamicElement.innerHTML = yukonContent;
+        break;
+        case 'Nunavut': dynamicElement.innerHTML = nunavutContent;
+        break;
+        default: dynamicElement.innerHTML = "<h2>Oops... Let's try again. Please pick a province</h2>";
     }
 }
 //finds all the tags I'd want to change with this script
