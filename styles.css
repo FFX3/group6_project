@@ -2,49 +2,23 @@
 #restaurantNameAndPricePoint p{
     display: inline;
 }
-/* sharda's styling */
-h1{font-family:cursive;
-    font-size:50px;
-    color:white;
-    text-align:center;
-    padding:60px;
-    padding-right:15px;
+/*Defaults section*/
+p{
+
 }
-header{background-image: url(./resources/miscImages/Where-to-eat-Canada2.jpg);
-    height:250px;
-    margin:0px;
+/*---end---*/
+/*lindsay's section*/
+header {
+
 }
-div.destination{
-    padding-left:650px;
+/*---end---/*
+/*Justin's section */
+#mainProvincePage{
+
 }
-aside{
-    margin:0;
-    line-height:3.0;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
-    width: 200px;
-    height:100%;
-    background-color:palegoldenrod;
-    position:fixed;
-    padding-right:20px;
-    border-collapse: collapse;   
- }
-section{
-    padding-left:250px;padding-top:150px;
+/*---end---*/
+/*kelsey*/
+footer{
+
 }
-pre.click{
-    padding-left:120px;
-}
-table.proimages1{
-    padding-left:120px;
-}
-img.proimages-img{
-    width:150px;
-    height:150px;
-}
-div.proimages-title{
-    font-size:12px;
-}
-    footer.copyright{
-    padding:5px; background-color:#d4d7dc; text-align:center;
-}
+/*---end---*/
