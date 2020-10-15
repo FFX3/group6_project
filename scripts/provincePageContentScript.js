@@ -1,6 +1,5 @@
 //this functions allows this script to parse the url for variables
-function getQueryVariable(variable)
-{
+function getQueryVariable(variable){
        var query = window.location.search.substring(1);
        var vars = query.split("&");
        for (var i=0;i<vars.length;i++) {
