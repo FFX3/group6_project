@@ -18,7 +18,24 @@ main{
 }
 /*---end---*/
 /*kelsey*/
-footer{
+footer nav {
+    background-color: palegoldenrod;
+    height: 40px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+footer li {
+    display: inline;
+    padding: 0 20px 0 20px;
 
 }
+footer a {
+    text-decoration: none;
+}
+
 /*---end---*/
