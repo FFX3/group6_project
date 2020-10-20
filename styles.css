@@ -6,6 +6,9 @@
 p{
 
 }
+body{
+    margin: 0px;
+}
 /*---end---*/
 /*lindsay's section*/
 header {
@@ -14,6 +17,8 @@ header {
 /*---end---/*
 /*Justin's section */
 main{
+    text-align: center;
+    background-color:   #FFF0D7;
 
 }
 #dynamicContent > div{
@@ -26,10 +31,38 @@ main{
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
 }
+#dynamicContent > div > div {
+    margin: 20px;
+    border-style: solid;
+    border-color: #B2853F;
+    background-color: #FFF;
+    border-width: 7px;
+}
+#dynamicContent > div > div:hover {
+    background-color:#E7C692;
+}
 #dynamicContent img{
-    width:  100px;
-    height: 100px;
+    width:  300px;
+    height: 300px;
     object-fit: cover;
+    border-bottom: solid;
+    border-color:  #B2853F;
+}
+#dynamicContent h3{
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+#dynamicContent a:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+#dynamicContent a:visited {
+    text-decoration: inherit;
+    color: inherit;
 }
 /*---end---*/
 /*kelsey*/
