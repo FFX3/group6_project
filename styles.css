@@ -46,7 +46,7 @@ body{
         overflow: auto;
 }
 
-  .provNav {
+.provNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ body{
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  }
+}
   
  
 /*---end---/*
@@ -62,6 +62,7 @@ body{
 main{
     text-align: center;
     background-color:   #FFF0D7;
+    margin-left:25%; /* lindsay, you need to make this value identical to the sideBar's width */
 
 }
 #dynamicContent > div{
