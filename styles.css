@@ -108,6 +108,27 @@ main{
     text-decoration: inherit;
     color: inherit;
 }
+@media only screen and (max-width: 600px) {
+    #dynamicContent > div{
+        display: block;
+    }
+    #dynamicContent img{
+        width:  100%;
+        height: 100%;
+        object-fit: cover;
+        border-bottom: solid;
+        border-color:  #B2853F;
+    }
+    #dynamicContent h3{
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        margin: 5px auto 5px auto;
+    }
+
+}
 /*---end---*/
 /*kelsey*/
 footer nav {
