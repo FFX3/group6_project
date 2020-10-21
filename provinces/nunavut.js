@@ -1,4 +1,48 @@
 var nunavutContent =
 `
-<h2>You clicked on Nunavut</h2><!-- remove this and add your content-->
+    <div class="restaurantContainer">
+        <div>
+            <a href="./resources/">
+                <img src="./resources/">
+                <h3></h3>
+            </a>
+            <a href="" target="_BLANK">I want to eat here!</a>
+        </div>
+    </div>
+    <div class="restaurantContainer">
+        <div>
+            <a href="./resources/">
+                <img src="./resources/">
+                <h3>Harvest Eatery</h3>
+            </a>
+            <a href="" target="_BLANK">I want to eat here!</a>
+        </div>
+    </div>
+    <div class="restaurantContainer">
+        <div>
+            <a href="./resources/">
+                <img src="./resources/">
+                <h3></h3>
+            </a>
+            <a href="" target="_BLANK">I want to eat here!</a>
+        </div>
+    </div>
+    <div class="restaurantContainer">
+        <div>
+            <a href="./resources/">
+                <img src="./resources/">
+                <h3></h3>
+            </a>
+            <a href="" target="_BLANK">I want to eat here!</a>
+        </div>
+    </div>
+    <div class="restaurantContainer">
+        <div>
+            <a href="./resources/">
+                <img src="./resources/">
+                <h3></h3>
+            </a>
+            <a href="" target="_BLANK">I want to eat here!</a>
+        </div>
+    </div>
 `;
