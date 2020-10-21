@@ -29,6 +29,7 @@ pre .click{
 
 }
 header{background-image: url(./resources/miscImages/Where-to-eat-Canada2.jpg);
+    background-size: cover; /*SHARDA look at background image now, its centered, no repeating*/
     height:250px;
     margin:0px;
 }
