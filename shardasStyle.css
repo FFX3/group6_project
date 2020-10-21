@@ -1,6 +1,7 @@
 h1{font-family:cursive;
     font-size:50px;
-    color:white;
+    color:white; /*color: black is easier to read*/
+    /*margin: 0; gets rid of space at top */
     text-align:center;
     padding:60px;
     padding-right:15px;
@@ -22,14 +23,15 @@ aside{
     border-collapse: collapse;   
  }
 section{
-    padding-left:250px;padding-top:150px;
+    padding-left:250px;
+    padding-top:150px; /*If we get rid of Destination Canada photo, get rid of padding-top here*/
 }
 pre .click{
     padding-left:120px;
 
 }
 header{background-image: url(./resources/miscImages/Where-to-eat-Canada2.jpg);
-    background-size: cover; /*SHARDA look at background image now, its centered, no repeating*/
+    background-size: cover; /*background image is centered, no repeating*/
     height:250px;
     margin:0px;
 }
