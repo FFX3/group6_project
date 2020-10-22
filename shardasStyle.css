@@ -1,10 +1,10 @@
 h1{font-family:cursive;
     font-size:50px;
-    color:white; /*color: black is easier to read*/
-    /*margin: 0; gets rid of space at top */
+    color:white; 
     text-align:center;
     padding:60px;
     padding-right:15px;
+    margin:0;
 }
 
 div.destination{
@@ -24,14 +24,14 @@ aside{
  }
 section{
     padding-left:250px;
-    padding-top:150px; /*If we get rid of Destination Canada photo, get rid of padding-top here*/
+    padding-top:150px; 
 }
-pre .click{
-    padding-left:120px;
+#click{
+    text-align:center;  
+}
 
-}
 header{background-image: url(./resources/miscImages/Where-to-eat-Canada2.jpg);
-    background-size: cover; /*background image is centered, no repeating*/
+    background-size: cover; 
     height:250px;
     margin:0px;
 }
