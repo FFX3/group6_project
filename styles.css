@@ -35,25 +35,14 @@ body{
     text-decoration: none;
 }
 
-
-.provinceNav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 25%;
-        height: 100%;
-        position: fixed;
-        overflow: auto;
-}
-
 .provNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    height: 100%;
+    position: fixed; 
+    overflow: auto; 
 }
   
  
@@ -62,7 +51,7 @@ body{
 main{
     text-align: center;
     background-color:   #FFF0D7;
-    margin-left:25%; /* lindsay, you need to make this value identical to the sideBar's width */
+    margin-left: 25%; /* lindsay, you need to make this value identical to the sideBar's width */
 
 }
 #dynamicContent > div{
