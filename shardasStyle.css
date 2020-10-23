@@ -1,50 +1,126 @@
 h1{font-family:cursive;
-    font-size:50px;
+    font-size:60px;
     color:white; 
     text-align:center;
-    padding:60px;
+    padding:40px;
     padding-right:15px;
     margin:0;
 }
 
-div.destination{
-    padding-left:650px;
+header{background-image: url(./resources/miscImages/Where-to-eat-Canada2.jpg);
+    background-size: cover; 
+    max-width:100%;
+    height:auto;
+    margin:0px;
 }
+
+div.destination{  
+    margin-left:auto; 
+    margin-right:auto;
+    display:block;
+    width:10%;   
+}
+
 aside{
     margin:0;
-    line-height:3.0;
+    line-height:2.5;
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
-    width: 200px;
-    height:100%;
+    width:13%;
+    height:39%;
     background-color:palegoldenrod;
     position:fixed;
     padding-right:20px;
     border-collapse: collapse;   
  }
+
 section{
     padding-left:250px;
-    padding-top:150px; 
-}
-#click{
-    text-align:center;  
+    padding-top:50px; 
 }
 
-header{background-image: url(./resources/miscImages/Where-to-eat-Canada2.jpg);
-    background-size: cover; 
-    height:250px;
+p{
+    font-size:16px;
+    margin-left:auto; 
+    margin-right:auto;
     margin:0px;
 }
-table.proimages1{
-    padding-left:120px;
+
+.click{font-size:16px;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;      
 }
+
+.proimages1{  
+    margin-left:auto; 
+    margin-right:auto;
+    overflow-x: auto;
+}
+
 img.proimages-img{
-    width:150px;
-    height:150px;
+    width:60%;
+    height:60%;
 }
-div.proimages-title{
-    font-size:12px;
-}
+
     footer.copyright{
     padding:5px; background-color:#d4d7dc; text-align:center;
+}
+@media only screen and (max-width: 1000px) {
+    
+    #table.proimages1{
+        padding:0;
+        width:30%;
+        text-align:center;
+     }
+     img.proimages-img{
+        width:50%;
+        height:50%;
+     }
+     p{
+        font-size:14px;
+     } 
+     .click{
+         font-size:14px;
+     }
+     aside{
+        font-size:14px;
+     }
+}
+@media only screen and (max-width: 768px) {
+    h1{font-size: 40px;
+        
+    }
+    img.proimages-img{
+        width:40%;
+        height:40%;
+    }  
+    p{
+        font-size:12px;
+     } 
+     .click{
+        font-size:12px;
+    } 
+    aside{
+        font-size:12px;
+     }
+}
+
+@media only screen and (max-width: 468px) { 
+    h1{font-size: 20px;
+    
+    }
+    img.proimages-img{
+        width:50%;
+        height:50%;
+    }
+    p{
+        font-size:8px;
+     } 
+     .click{
+        font-size:8px;
+    } 
+    aside{
+        font-size:10px;
+     }
 }
